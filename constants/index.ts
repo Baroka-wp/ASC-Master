@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "@/public/assets";
+import { people01, people02, people03, facebook, linkedin, whatsapp, airbnb, binance, coinbase, dropbox, star } from "@/public/assets";
 
 export const navLinks = [
     {
@@ -7,15 +7,15 @@ export const navLinks = [
     },
     {
         id: "features",
-        title: "Features",
+        title: "Vision",
     },
     {
         id: "product",
-        title: "Product",
+        title: "Tools",
     },
     {
         id: "clients",
-        title: "Clients",
+        title: "Records",
     },
 ];
 
@@ -23,23 +23,30 @@ export const features = [
     {
         id: "feature-1",
         icon: star,
-        title: "Rewards",
+        title: "Career Guidance Portal",
         content:
-            "The best credit cards offer some tantalizing combinations of promotions and prizes",
+            "Supports young people with career counseling, job placement services, and vocational training opportunities.",
     },
     {
         id: "feature-2",
-        icon: shield,
-        title: "100% Secured",
+        icon: star,
+        title: "Scholarship and Funding Databases",
         content:
-            "We take proactive steps make sure your information and transactions are secure.",
+            "Connects students with scholarship opportunities and financial aid resources.",
     },
     {
         id: "feature-3",
-        icon: send,
-        title: "Balance Transfer",
+        icon: star,
+        title: "Extracurricular Activity Portals",
         content:
-            "A balance transfer credit card can save you a lot of money in interest charges.",
+            "Offers platforms for arts, sports, and cultural activities to promote holistic development.",
+    },
+    {
+        id: "E-Learning Modules",
+        icon: star,
+        title: "Career Guidance Portal",
+        content:
+            "Provides interactive and accessible online courses tailored to various educational levels.",
     },
 ];
 
@@ -73,18 +80,18 @@ export const feedback = [
 export const stats = [
     {
         id: "stats-1",
-        title: "User Active",
-        value: "3800+",
+        title: "Jobs created ",
+        value: "+100",
     },
     {
         id: "stats-2",
-        title: "Trusted by Company",
-        value: "230+",
+        title: "Young impacted",
+        value: "+2000",
     },
     {
         id: "stats-3",
-        title: "Transaction",
-        value: "$230M+",
+        title: "Partnerships",
+        value: "+20",
     },
 ];
 
@@ -160,23 +167,18 @@ export const footerLinks = [
 export const socialMedia = [
     {
         id: "social-media-1",
-        icon: instagram,
-        link: "https://www.instagram.com/",
+        icon: whatsapp,
+        link: "https://wa.me/0022967153974",
     },
     {
         id: "social-media-2",
         icon: facebook,
-        link: "https://www.facebook.com/",
-    },
-    {
-        id: "social-media-3",
-        icon: twitter,
-        link: "https://www.twitter.com/",
+        link: "https://web.facebook.com/AfricaSamurai",
     },
     {
         id: "social-media-4",
         icon: linkedin,
-        link: "https://www.linkedin.com/",
+        link: "https://www.linkedin.com/company/africa-samurai-consulting",
     },
 ];
 

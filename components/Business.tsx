@@ -28,21 +28,26 @@ const Business: React.FC = () => (
   <section id="features" className={`${layout.section}`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" />
-        We'll handle the money.
+        Our commitment
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial lif e by
-        building credit, earning rewards and saving money. But with hundreds of
-        credits cards on the market.
+      Africa Samurai is committed to providing technology solutions and collecting relevant data to inform decisions in education.
       </p>
-      <Button styles="mt-10" />
     </div>
-    <div className={`${layout.sectionImg} flex-col`}>
-      {features.map((feature, index) => (
+    {/* <div className={`${layout.sectionImg} flex-col`}> */}
+      {/* {features.map((feature, index) => (
         <FeaturesCard key={feature.id} {...feature} index={index} />
-      ))}
-    </div>
+      ))} */}
+      <div className={layout.sectionInfo}>
+        <h2 className={styles.heading2}>
+          Vision
+        </h2>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        Ensuring equitable access to quality education in Africa, leveraging technology to enable every child and young person to reach their full potential.
+        </p>
+        {/* <Button styles="mt-10" /> */}
+      </div>
+    {/* </div> */}
   </section>
 );
 
